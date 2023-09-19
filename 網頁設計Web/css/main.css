@@ -1,0 +1,113 @@
+#banner{
+    width: 1200px;
+    height: 200px;
+    background-color: purple;
+    color: black;
+    clear: both;
+    position: fixed;
+}
+#nav { 
+    width: 100px;
+    height: 500px;
+    background-color: aquamarine;
+    float: left;
+}
+#content {
+    width: 800px;
+    background-color: blue;
+    float:left;
+    margin-left: 200px;
+}
+
+#information {
+    width: 200px;
+    height: 500px;
+    background-color: blue;
+    position: fixed;
+}
+#footer {
+    width: 600px;
+    height: 100px;
+    background-color: coral;
+    clear: both;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:
+        "Shadows Into Light",
+        Helvetica,
+        "Helvetica Neue",
+        "HelveticaNeue-Light",
+        "Helvetica Neue Light",
+        Arial,
+        sans-serif;
+    font-size: 90%;
+}
+#content, #nav, #supporting{
+    margin-top: 200px;
+    padding: 10px;
+}
+#nav,#contant,#info,#banner{
+    padding: 10px;
+}
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    padding: 5px;
+}
+#about,#Education,#Experience,#special{
+    padding-top: 200px;
+
+}
+#nav li{
+    display:block;
+    background-color: coral;
+    padding: 2px;
+    margin: 5px;
+    text-align:center;
+    color: darkgreen;
+    box-shadow: 1px 1px 5px 1px blueviolet(0,0,0,0.5);
+    border: 3px solid white;
+    border-radius: 15px;
+}
+#nav ul{
+    padding-left: 0px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nav li:hover{
+    background-color: fuchsia;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
